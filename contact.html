@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ray McCann</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="assets/css/reset.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/contact.css" rel="stylesheet">
+        <link href="assets/css/mobile.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="headerName">
+                    <a href="index.html">Ray McCann</a>
+                </div>
+                <div id="headerLinks">
+                    <ul>
+                        <li><a href="index.html" id="lnAbout">About</a></li>
+                        <li><a href="portfolio.html" id="lnPortfolio">Portfolio</a></li>
+                        <li><a href="contact.html" id="lnContact" class="active">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <section>
+                <main class="contentBlock">
+                    <div class="title">Contact</div>
+                    <form method="post" action="#">
+                        <div class="form-entry">
+                            <label for="firstname">Name</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="John Smith" required>
+                        </div>
+                        <div class="form-entry">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="example@example.com" required>
+                        </div>
+                        <div class="form-entry">
+                            <label for="message">Message</label>
+                            <textarea rows="12" cols="50" name="message" id="message" required></textarea>
+                        </div>
+                        <div class="form-entry">
+                            <button type="submit" id="submit">Submit</button>
+                        </div>
+                    </form>
+                </main>
+                <aside class="smallBlock">
+                    <div class="title">Connect With Me</div>
+                    <a href="https://github.com/FalseFlash" target="_BLANK" class="icon" style="color:#333333;"><i class="fa fa-github-square icon" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/ray-mccann-44ab5996" target="_BLANK" class="icon" style="color:#007ab9;"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></a>
+                    <a href="http://stackoverflow.com/users/3347987" target="_BLANK" class="icon" style="color:#ffa500;"><i class="fa fa-stack-overflow icon" aria-hidden="true"></i></a>
+                </aside>
+            </section>
+        </div>
+        <footer>
+            &copy; Copyright <span id="yearDate">2016</span> Ray McCann
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="assets/js/script.js"></script>
+        </footer>
+    </body>
+</html>

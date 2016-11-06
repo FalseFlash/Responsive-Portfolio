@@ -1,0 +1,47 @@
+.port-block {
+    position: relative;
+    width: 270px;
+    height: 205px;
+    border: 1px solid #CCC;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.2s ease-in-out;
+    overflow: auto;
+    float: left;
+    margin: 20px 0 20px;
+}
+
+.port-block:nth-child(even) {
+    margin-left: 45px;
+}
+
+.port-block img {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+}
+
+.port-block:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.port-block div.port-title {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    background: #4aaaa5;
+    background: rgba(74,170,165, 0.8);
+    color: #FFF;
+    z-index: 1;
+    font-size: 24px;
+    text-align: center;
+}
+
+.port-holder {
+    width: 100%;
+    max-width: 650px;
+    float: left;
+}

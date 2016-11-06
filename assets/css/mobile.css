@@ -1,0 +1,81 @@
+@media screen and (max-width: 980px) {
+    .container {
+        max-width: 768px !important;
+    }
+
+    main.contentBlock {
+        max-width: 420px !important;
+    }
+
+    .port-block {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    main.contentBlock, aside.smallBlock {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    main.contentBlock {
+        margin-bottom: 30px !important;
+    }
+
+    .port-block {
+        width: 48%;
+        left: 3%;
+        z-index: 999;
+    }
+
+    .port-block:nth-child(odd) {
+        float: right;
+    }
+
+    .port-block:hover {
+        transform: none;
+    }
+
+    aside.smallBlock {
+        margin-bottom: 140px;
+    }
+
+    header ul {
+        margin-right: 2%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+
+    header #headerName, #headerName a {
+        width: 100%;
+        text-align: center;
+    }
+
+    header ul {
+        width: 100%;
+        text-align: center;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    header ul li:not(:last-child) {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    header ul li:last-child {
+        padding-left: 40px;
+    }
+
+    .port-block {
+        left: 0;
+        width: 100%;
+    }
+}
